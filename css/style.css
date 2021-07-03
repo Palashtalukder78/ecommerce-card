@@ -1,0 +1,39 @@
+.ecommerce{
+    display: flex;
+    justify-content: center;
+}
+section{
+    background-color: rgb(73, 47, 7);
+    text-align: center;
+    color: #fff;
+    margin: 10px;
+    padding: 30px;
+    border-radius: 50px 0 50px 0;
+    
+}
+.product1:hover, 
+.product2:hover, 
+.product3:hover, 
+.product4:hover{
+    box-shadow: 0 10px 8px 8px #c04e4eb4;
+}
+h3,h4{
+    margin: 0;
+}
+img{
+    margin-bottom: 10px;
+    border-radius: 60px;
+}
+button{
+    margin: 10px;
+    padding: 10px 20px;
+    border: none;
+    background-color: blueviolet;
+    border-radius: 10px;
+    color: #fff;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #fff;
+    color: #000;
+}
